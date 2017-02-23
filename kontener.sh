@@ -4,3 +4,4 @@ lxc start rabidavid
 sleep 30
 lxc exec rabidavid apt update -y
 lxc exec rabidavid apt upgrade -y
+lxc exec rabidavid apt install mc -y
